@@ -4,7 +4,6 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Poppins", sans-serif;
-  /* position: relative; */
 }
 
 .header {
@@ -16,11 +15,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* position: relative; */
+  position: relative;
 }
 
 .logo {
-  /* position: absolute; */
+  position: absolute;
   top: 35px;
   left: 76px;
   width: 204px;
@@ -54,7 +53,7 @@ body {
 }
 
 .nav {
-  /* position: absolute; */
+  position: absolute;
   top: 50px;
   left: 751px;
   display: flex;
@@ -66,38 +65,34 @@ body {
 }
 
 .element_1 {
-  /* position: absolute; */
+  position: absolute;
   width: 46px;
   height: 7px;
-
+  top: 39px;
+  left: 1313px;
   background-color: black;
 }
 
-.menu {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
 .element_2 {
+  position: absolute;
   width: 46px;
   height: 8px;
-
+  top: 50px;
+  left: 1313px;
   background-color: black;
 }
 
 .element_3 {
+  position: absolute;
   width: 46px;
   height: 12px;
-
+  top: 65px;
+  left: 1313px;
   background-color: black;
 }
 
-.main {
-  display: flex;
-}
-
 .clothes {
+  position: absolute;
   width: 388px;
   height: 173px;
   font-weight: 700;
@@ -108,7 +103,7 @@ body {
 }
 
 .store {
-  /* position: absolute; */
+  position: absolute;
   width: 288px;
   height: 152px;
   top: 337px;
@@ -119,7 +114,7 @@ body {
 }
 
 .description {
-  /* position: absolute; */
+  position: absolute;
   width: 385px;
   height: 144px;
   top: 474px;
@@ -129,9 +124,11 @@ body {
 }
 
 button {
-  /* position: absolute; */
+  position: absolute;
   width: 208px;
   height: 55px;
+  top: 739px;
+  left: 316px;
   background-color: #ff4242;
   border-radius: 30px;
   border: none;
@@ -151,6 +148,8 @@ button {
   letter-spacing: 1px;
   width: 153px;
   height: 24px;
+  top: 750px;
+  left: 253px;
 }
 
 .button:hover {
@@ -164,7 +163,7 @@ button {
 }
 
 .shop {
-  /* position: absolute; */
+  position: absolute;
   width: 464px;
   height: 488px;
   top: 592px;
@@ -172,7 +171,7 @@ button {
 }
 
 .detail_1 {
-  /* position: absolute; */
+  position: absolute;
   width: 324px;
   height: 312px;
   top: 189px;
@@ -180,7 +179,7 @@ button {
 }
 
 .detail_2 {
-  /* position: absolute; */
+  position: absolute;
   width: 180px;
   height: 72px;
   top: 582px;
@@ -188,7 +187,7 @@ button {
 }
 
 .detail_3 {
-  /* position: absolute; */
+  position: absolute;
   width: 180px;
   height: 72px;
   top: 556px;
@@ -196,7 +195,7 @@ button {
 }
 
 .detail_4 {
-  /* position: absolute; */
+  position: absolute;
   width: 324px;
   height: 312px;
   top: 512px;
@@ -204,7 +203,7 @@ button {
 }
 
 .detail_5 {
-  /* position: absolute; */
+  position: absolute;
   width: 1209px;
   height: 255px;
   top: 769px;
